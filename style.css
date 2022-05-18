@@ -1,9 +1,29 @@
 body {
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
   }
 
+  .header {
+    display: flex;
+    background: #1F2937;
+  }
+
+  ul {
+      display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+.info {
+    display: flex;
+}
+  
+  .footer {
+    display: flex;
+  }
+  
+  
