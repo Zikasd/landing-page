@@ -1,29 +1,32 @@
 body {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header {
-    display: flex;
-    background: #1F2937;
-  }
-
-  ul {
-      display: flex;
-}
-
-.container {
+    font-family: Roberto, sans-serif;
     display: flex;
     flex-direction: column;
     
   }
 
-.info {
-    display: flex;
-}
-  
+  .header,
   .footer {
     display: flex;
+    background: #1F2937;
+    align-items: center;
+    color: white;
   }
-  
+
+  .footer {
+    justify-content: center;
+  }
+
+  .logo {
+    font-size: 24px;
+    flex: 1;
+      }
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+  }
+
+ 
   
