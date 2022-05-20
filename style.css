@@ -5,28 +5,47 @@ body {
     
   }
 
-  .header,
-  .footer {
+.header,
+.footer {
     display: flex;
     background: #1F2937;
     align-items: center;
     color: white;
   }
 
-  .footer {
+.footer {
     justify-content: center;
   }
 
-  .logo {
+.logo {
     font-size: 24px;
     flex: 1;
       }
 
-  ul {
+ul {
     display: flex;
     list-style: none;
     gap: 16px;
   }
-
+ img {
+   height: 150px;
+   width: 300px;
+ }
  
-  
+.container-one {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.model {
+  display: flex;
+}
+
+.text {
+  flex: 1;
+}
