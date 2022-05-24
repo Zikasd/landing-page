@@ -73,3 +73,8 @@ ul {
 .info {
   max-width: 200px;
 }
+
+.container-three {
+  background: #E5E7EB;
+  padding: 50px 400px;
+}
