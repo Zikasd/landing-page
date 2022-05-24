@@ -32,16 +32,44 @@ ul {
     
   }
   
-  img {
-    max-width: 300px; 
+  .image {
+   
+    height: 100px;
+    width: 200px; 
   }
   
  
  .text {
    display: flex;
    flex-direction: column;
+   
  }
 
- 
+ .sign-up {
+   
+   height: 24px;
+   width: 72px;
+   
+ }
 
 
+ img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+ .container-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+.info {
+  max-width: 200px;
+}
